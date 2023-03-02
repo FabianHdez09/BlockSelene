@@ -1,0 +1,196 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para la navegación */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  nav li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Estilos para los artículos */
+  article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+  }
+  
+  article h2 {
+    margin-top: 0;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  h2{
+    text-align: center;
+    font-family: cursive;
+  }
+  p{
+    text-align: justify;
+    font-weight: bold;
+    
+  }
+ /* .Bien{
+  background-image: url("https://www.google.com/search?q=imagenes+de+realismo+%2B&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi3qMXUtbn9AhWWL0QIHZkUDKkQ_AUoAXoECAMQAw&biw=1366&bih=661&dpr=1#imgrc=NVgTWeU9Q8iB9M");
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+.logo{
+   float: left;
+  width: 150px;
+  height: auto;
+}
+
+/* Estilos generales */
+.article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+/* Estilos para el título de la sección */
+.titulo-seccion {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+
+/* Estilos para los enlaces */
+.redes-sociales {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.redes-sociales a {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.icono-red-social {
+  width: 60px;
+  margin-right: 20px;
+}
+
+.nombre-red-social {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+/*estilos de prueba */
+body {
+  font-family: Arial, sans-serif; 
+  font-size: 16px;
+  line-height: 1.5; 
+  color: #333; 
+  background-color: #f7f7f7; 
+  margin: 0; 
+  padding: 0; 
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #0066cc; 
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; 
+}
+
+.sub-menu {
+  display: none;
+}
+
+.nav-item:hover .sub-menu {
+  display: block;
+}
+
+    /* Estilo general del body */
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    form {
+      margin: 0 auto;
+      max-width: 400px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+
+    button[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      align-items: center;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #555;
+      align-items: center;
+    }
